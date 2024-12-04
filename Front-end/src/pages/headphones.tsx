@@ -5,7 +5,7 @@ function Headphones() {
   return (
     <>
       <Navbar />
-      hola
+      headphones
     </>
   )
 }
