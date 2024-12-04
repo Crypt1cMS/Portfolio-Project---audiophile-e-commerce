@@ -1,0 +1,26 @@
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 10000;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.content {
+    display: flex;
+    gap: 2rem;
+}
+
+.content li {
+    letter-spacing: 4px;
+}

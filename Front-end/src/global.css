@@ -1,0 +1,77 @@
+:root {
+    --h1-font-size: clamp(2.25rem, 4vw, 3.5rem);
+    --h2-font-size: clamp(1.75rem, 5vw, 2.5rem);
+    --h3-font-size: clamp(1.625rem, 4vw, 2rem);
+    --h4-font-size: 1.75rem;
+    --h6-font-size: 1.125rem;
+    --p-font-size: 0.938rem;
+    --overline-font-size: 0.875rem;
+    --subtittle-font-size: 0.813rem;
+    --main-background-color: rgba(255, 255, 255, 1);
+    --nf-background-color: #131313;
+    --sencodary-bg-accent-color: rgba(241, 241, 241, 1);
+    --third-bg-accent-color: rgba(250, 250, 250, 1);
+    --primary-accent-color: rgba(216, 125, 74, 1);
+    --btn-hover-color: rgba(251, 175, 133, 1);
+}
+
+*, ::before, ::after {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+}
+
+h6 {
+    font-size: var(--h6-font-size);
+}
+
+p {
+    font-size: var(--p-font-size);
+}
+
+.overline {
+    letter-spacing: 10px;
+    font-size: var(--overline-font-size);
+    font-weight: 400;
+}
+
+.overline-higjlight {
+    letter-spacing: 10px;
+    font-size: var(--overline-font-size);
+    font-weight: 300;
+}
+
+.primary-btn {
+    text-wrap: nowrap;
+    width: min-content;
+    text-decoration: none;
+    color: white;
+    padding: .75rem 1.75rem;
+    background: var(--primary-accent-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.primary-btn:hover {
+    background: var(--btn-hover-color);
+}
