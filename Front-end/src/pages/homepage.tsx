@@ -1,3 +1,4 @@
+import '../global.css'
 import Navbar from '../components/layout/navbar/navbar'
 import Hero from '../components/layout/hero/hero'
 
@@ -5,8 +6,12 @@ function HomePage() {
 
   return (
     <>
-      <Navbar />
-        <Hero />
+      <div className="wrapper">
+        <Navbar />
+      </div>
+
+      <Hero />
+
     </>
   )
 }

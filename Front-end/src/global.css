@@ -4,7 +4,7 @@
     --h3-font-size: clamp(1.625rem, 4vw, 2rem);
     --h4-font-size: 1.75rem;
     --h6-font-size: 1.125rem;
-    --p-font-size: 0.938rem;
+    --p-font-size: 1rem;
     --overline-font-size: 0.875rem;
     --subtittle-font-size: 0.813rem;
     --main-background-color: rgba(255, 255, 255, 1);
@@ -54,7 +54,7 @@ p {
     font-weight: 400;
 }
 
-.overline-higjlight {
+.overline-highlight {
     letter-spacing: 10px;
     font-size: var(--overline-font-size);
     font-weight: 300;
@@ -74,4 +74,10 @@ p {
 
 .primary-btn:hover {
     background: var(--btn-hover-color);
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
 }
