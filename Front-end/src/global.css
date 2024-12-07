@@ -76,6 +76,23 @@ p {
     background: var(--btn-hover-color);
 }
 
+
+.secondary-btn {
+    text-wrap: nowrap;
+    width: min-content;
+    text-decoration: none;
+    color: white;
+    padding: .75rem 1.75rem;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.secondary-btn:hover {
+    background: var(--nf-background-color);
+}
+
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;

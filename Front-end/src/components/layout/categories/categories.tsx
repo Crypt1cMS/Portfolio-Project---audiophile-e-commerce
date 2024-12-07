@@ -12,7 +12,7 @@ function Categories() {
                 <div className="categories-grid">
 
                     <div className="categories-item">
-                        <img src={ProductX99} alt="Product X99" />
+                        <img src={ProductX99} alt="Product X99" draggable={false}/>
 
                         <div className="categories-item-text">
                             <h6>HEADPHONES</h6>
@@ -25,7 +25,7 @@ function Categories() {
                     </div>
 
                     <div className="categories-item">
-                        <img src={ProductZX9} alt="Product X99" />
+                        <img src={ProductZX9} alt="Product X99" draggable={false}/>
 
                         <div className="categories-item-text">
                             <h6>SPEAKER</h6>

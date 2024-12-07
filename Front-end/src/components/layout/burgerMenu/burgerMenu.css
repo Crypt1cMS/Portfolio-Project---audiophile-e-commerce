@@ -1,13 +1,13 @@
 .burger-content {
-    position: absolute;
     position: fixed;
     background: white;
     top: 0;
     left: 0;
     height: 100dvh;
-    width: 250px;
+    width: 100%;
     color: black;
     padding: 0 30px;
+    overflow-y:hidden;
 }
 
 header {
