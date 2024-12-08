@@ -8,7 +8,7 @@ nav {
     z-index: 10000;
     left: 50%;
     transform: translateX(-50%);
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .nav-container {
@@ -17,6 +17,11 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
 }
 
 ul {
@@ -29,14 +34,11 @@ ul li a {
     text-decoration: none;
     color: white;
     letter-spacing: 4px;
+    transition: color 200ms ease-in-out;
 }
 
-ul li {
-    transition: transform 200ms ease-in-out;
-}
-
-ul li:hover {
-    transform: scale(1.1);
+ul li a:hover {
+    color: var(--primary-accent-color);
 }
 
 .nav-cart img {
@@ -49,4 +51,22 @@ ul li:hover {
 
 .nav-cart img:hover {
     transform: scale(1.2);
+}
+
+.nav-burger-menu {
+    display: none;
+}
+
+hr {
+    border: 0.1px solid white;
+}
+
+@media (max-width: 980px) {
+    ul {
+        display: none;
+    }
+
+    .nav-burger-menu {
+        display: block;
+    }
 }

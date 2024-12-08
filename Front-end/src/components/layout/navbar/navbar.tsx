@@ -1,8 +1,9 @@
 import './navbar.css'
 import '../../../global.css'
-import Logo from '../../../../public/audiophile 2.svg'
-import Cart from '../../../../public/icon-cart.svg'
+import Logo from '../../../assets/audiophile 2.svg'
+import Cart from '../../../assets/icon-cart.svg'
 import { Link } from 'react-router'
+import BurgerMenu from '../burgerMenu/burgerMenu'
 
 function Navbar() {
 
@@ -12,8 +13,12 @@ function Navbar() {
 
           <div className="nav-container">
 
+            <div className="nav-burger-menu">
+              <BurgerMenu />
+            </div>
+              
             <div className="nav-logo">
-              <img src={Logo} alt="audiophile Logo" />
+              <Link to={'/'}><img draggable={false} src={Logo} alt="audiophile Logo" /></Link>
             </div>
 
             <ul>
@@ -24,7 +29,7 @@ function Navbar() {
             </ul>
 
             <div className="nav-cart">
-              <img src={Cart} alt="Cart" />
+              <img draggable={false} src={Cart} alt="Cart" />
             </div>
 
           </div>

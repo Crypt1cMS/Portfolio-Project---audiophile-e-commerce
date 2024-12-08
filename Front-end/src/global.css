@@ -76,8 +76,41 @@ p {
     background: var(--btn-hover-color);
 }
 
+
+.secondary-btn {
+    text-wrap: nowrap;
+    width: min-content;
+    text-decoration: none;
+    color: white;
+    padding: .75rem 1.75rem;
+    background: black;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.secondary-btn:hover {
+    background: rgb(33, 33, 33);
+}
+
+.outline-btn {
+    text-wrap: nowrap;
+    width: min-content;
+    text-decoration: none;
+    color: black;
+    padding: .75rem 1.75rem;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.outline-btn:hover {
+    background: black;
+    color: white;
+}
+
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
+    padding: 0 20px;
 }
