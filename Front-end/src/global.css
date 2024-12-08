@@ -84,13 +84,28 @@ p {
     color: white;
     padding: .75rem 1.75rem;
     background: black;
-    border-radius: 5px;
     cursor: pointer;
     transition: background 0.2s ease-in-out;
 }
 
 .secondary-btn:hover {
-    background: var(--nf-background-color);
+    background: rgb(33, 33, 33);
+}
+
+.outline-btn {
+    text-wrap: nowrap;
+    width: min-content;
+    text-decoration: none;
+    color: black;
+    padding: .75rem 1.75rem;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.outline-btn:hover {
+    background: black;
+    color: white;
 }
 
 .wrapper {

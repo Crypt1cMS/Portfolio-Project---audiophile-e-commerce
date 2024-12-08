@@ -3,6 +3,7 @@ import '../../../global.css'
 import SpeakerZX9 from '../../../assets/image-speaker-zx9.png'
 import CirclePattern from '../../../assets/pattern-circles.svg'
 import { Link } from 'react-router'
+import EarphonesYX1 from '../../../assets/image-earphones-yx1.jpg'
 
 function HomeFeaturedProducts() {
     return (
@@ -31,15 +32,23 @@ function HomeFeaturedProducts() {
                     </div>
 
                     <div className="featured-2">
+
+                        <img className='featured-2-responsive-img' alt="Speaker ZX7" />
+
+                        <div className="featured-2-content">
+                            <h3>ZX7 SPEAKER</h3>
+                            <Link to={'/'} className='outline-btn'>SEE PRODUCT</Link>
+                        </div>
                         
                     </div>
 
                     <div className="featured-3">
-                    
+                        <img src={EarphonesYX1} alt="Earphones YX1" />
                     </div>
-
-                    <div className="featured-4">
                     
+                    <div className="featured-4">
+                        <h3>YX1 EARPHONES</h3>
+                        <Link to={'/'} className='outline-btn'>SEE PRODUCT</Link>
                     </div>
                 </div>
 
