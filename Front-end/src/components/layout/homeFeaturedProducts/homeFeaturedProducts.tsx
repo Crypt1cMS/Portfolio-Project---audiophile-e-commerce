@@ -24,7 +24,7 @@ function HomeFeaturedProducts() {
                             <div className="featured-right-content">
                                 <h2>ZX9 <br/>SPEAKER</h2>
                                 <p>Upgrade to premium speakers that are <br />phenomenally built to deliver truly remarkable <br />sound.</p>
-                                <Link className='secondary-btn' to={'/'}><p>SEE PRODUCT</p></Link>
+                                <Link className='secondary-btn' to={'/speakers'}><p>SEE PRODUCT</p></Link>
                             </div>
 
                         </div>
@@ -37,7 +37,7 @@ function HomeFeaturedProducts() {
 
                         <div className="featured-2-content">
                             <h3>ZX7 SPEAKER</h3>
-                            <Link to={'/'} className='outline-btn'>SEE PRODUCT</Link>
+                            <Link to={'/speakers'} className='outline-btn'>SEE PRODUCT</Link>
                         </div>
                         
                     </div>
@@ -48,7 +48,7 @@ function HomeFeaturedProducts() {
 
                     <div className="featured-4">
                         <h3>YX1 EARPHONES</h3>
-                        <Link to={'/'} className='outline-btn'>SEE PRODUCT</Link>
+                        <Link to={'/earphones'} className='outline-btn'>SEE PRODUCT</Link>
                     </div>
                 </div>
 

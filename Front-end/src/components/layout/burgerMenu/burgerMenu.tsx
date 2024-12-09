@@ -29,8 +29,8 @@ function BurgerMenu() {
                     <div className="burger-items">
                         <Link className="border" to={'/'}><p>HOMEPAGE</p></Link>
                         <Link className="border" to={'/headphones'}><p>HEADPHONES</p></Link>
-                        <Link className="border" to={'/'}><p>EARPHONES</p></Link>
-                        <Link to={'/'}><p>SPEAKERS</p></Link>
+                        <Link className="border" to={'/earphones'}><p>EARPHONES</p></Link>
+                        <Link to={'/speakers'}><p>SPEAKERS</p></Link>
                     </div>
                     
                     <div className="logo">

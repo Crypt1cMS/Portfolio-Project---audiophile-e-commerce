@@ -17,7 +17,7 @@ function Hero() {
                 <span className='overline'>New Product</span>
                 <h1>XX99 Mark II <br /> Headphones</h1>
                 <p>Experience natural, lifelike audio and exceptional <br /> build quality made for the passionate music <br />enthusiast.</p>
-                <Link to={'/'} className='primary-btn'><p>SEE PRODUCT</p></Link>
+                <Link to={'/headphones'} className='primary-btn'><p>SEE PRODUCT</p></Link>
               </div>
 
             </div>

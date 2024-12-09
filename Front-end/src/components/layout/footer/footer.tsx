@@ -24,11 +24,10 @@ function Footer() {
 
                         <ul className='footer-list'>
                             <li><Link to={'/'}>HOME</Link></li>
-                            <li><Link to={'/'}>HEADPHONES</Link></li>
-                            <li><Link to={'/'}>SPEAKERS</Link></li>
-                            <li><Link to={'/'}>SPEAKERS</Link></li>
+                            <li><Link to={'/headphones'}>HEADPHONES</Link></li>
+                            <li><Link to={'/earphones'}>EARPHONES</Link></li>
+                            <li><Link to={'/speakers'}>SPEAKERS</Link></li>
                         </ul>
-
                         
                         <div className="footer-icons">
                             <img src={Facebook} alt="Facebook" />

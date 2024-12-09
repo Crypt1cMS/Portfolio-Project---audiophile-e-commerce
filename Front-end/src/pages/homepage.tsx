@@ -14,15 +14,15 @@ function HomePage() {
         <Navbar />
       </div>
 
-        <Hero />
+      <Hero />
 
-          <div className="wrapper">
-            <Categories />
-              <HomeFeaturedProducts />
-                <AboutHomePage />
-          </div>
+      <div className="wrapper">
+        <Categories />
+          <HomeFeaturedProducts />
+            <AboutHomePage />
+      </div>
 
-            <Footer />
+      <Footer />
     </>
   )
 }
