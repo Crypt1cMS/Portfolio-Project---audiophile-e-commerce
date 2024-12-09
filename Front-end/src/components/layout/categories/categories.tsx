@@ -38,7 +38,7 @@ function Categories() {
                     </div>
 
                     <div className="categories-item">
-                        <img src={ProductYX1} alt="Product X99" />
+                        <img src={ProductYX1} alt="Product X99" draggable={false}/>
 
                         <div className="categories-item-text">
                             <h6>EARPHONES</h6>

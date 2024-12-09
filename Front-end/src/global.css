@@ -59,6 +59,7 @@ p {
     letter-spacing: 10px;
     font-size: var(--overline-font-size);
     font-weight: 300;
+    color: var(--primary-accent-color);
 }
 
 .primary-btn {

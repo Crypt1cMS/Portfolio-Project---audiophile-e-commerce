@@ -24,7 +24,6 @@ const router = createBrowserRouter([
     path: '/speakers',
     element: <Speakers /> ,
   },
-  
 ])
 
 createRoot(document.getElementById('root')!).render(
