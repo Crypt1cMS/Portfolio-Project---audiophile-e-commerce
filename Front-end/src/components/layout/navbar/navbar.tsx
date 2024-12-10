@@ -21,11 +21,11 @@ function Navbar() {
               <Link to={'/'}><img draggable={false} src={Logo} alt="audiophile Logo" /></Link>
             </div>
 
-            <ul>
+            <ul className='nav-list'>
               <li><Link to={'/'}><p>HOMEPAGE</p></Link></li>
               <li><Link to={'/headphones'}><p>HEADPHONES</p></Link></li>
-              <li><Link to={'/'}><p>EARPHONES</p></Link></li>
-              <li><Link to={'/'}><p>SPEAKERS</p></Link></li>
+              <li><Link to={'/earphones'}><p>EARPHONES</p></Link></li>
+              <li><Link to={'/speakers'}><p>SPEAKERS</p></Link></li>
             </ul>
 
             <div className="nav-cart">
