@@ -69,7 +69,6 @@ p {
     color: white;
     padding: .75rem 1.75rem;
     background: var(--primary-accent-color);
-    border-radius: 5px;
     cursor: pointer;
     transition: background 0.2s ease-in-out;
 }
